@@ -1,0 +1,15 @@
+// ltl-netlink-demo/main.ltl
+//
+// Netlink (rtnetlink) link + address enumerator.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-netlink-demo v0.1.0")
+    io::println("Netlink (rtnetlink) link + address enumerator.")
+    0
+}
